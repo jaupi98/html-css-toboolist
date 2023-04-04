@@ -75,10 +75,48 @@ section{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px;
 }
 span{
-    font-size: larger;
+    font-size: 25px;
+    margin: 10px;
+    
+    
+}
+/* COLORE DI VERO E FALSO */
+.vero{
+    color: rgb(154, 194, 154);
+    border-style: solid;
+    border-radius: 100%;   
+}
+.negativo{
+    color: red;
+    border-style: solid;
+    border-radius: 100%;
+}
+/* COLORI DEL TASTO */
+.tasto{
+    color: white;
     padding: 10px;
+    border-radius: 40%;
+}
+.azzurro{
+    background-color: rgb(55, 147, 184);
+}
+.viola{
+    background-color: rgb(78, 19, 105);
+}
+.verdeacqua{
+    background-color: rgb(12, 138, 121);
+}
+.ciano{
+    background-color: coral;
+}
+.fucsia{
+    background-color: darkmagenta;
+}
+.senape{
+    background-color: rgb(110, 184, 36);
+
 }

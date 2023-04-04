@@ -4,11 +4,16 @@
     box-sizing: 0;
 
 }
-
+body{
+    background-color: lightgrey;
+}
 /* header */
+header{
+    background-color: white;
+}
 .titolo{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     margin-left: 30px;
     
     
@@ -23,3 +28,57 @@ h1{
     vertical-align: text-bottom;
 }
 /* header completato */
+/* INIZIAMO MAIN */
+/* sezione 1 */
+#sezione1{
+    background-color: white;
+    margin-top: 40px;
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom: 1px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+
+
+}
+.buttone{
+    padding: 5px 5px;
+    border-radius: 10%;
+    font-size: large;
+}
+.blue{
+    color: white;
+    background-color:rgb(111, 181, 221);
+    border-color:rgb(111, 181, 221);
+}
+.bianco{
+    color: lightgray;
+    background-color: white;
+    border-color: lightgrey;
+}
+/* sezione 1 finita */
+/* SEZIONE 2 */
+section{
+    background-color: white;
+    margin-left:400px;
+    margin-right:400px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+
+}
+.lista{
+    padding: 20px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+}
+span{
+    font-size: larger;
+    padding: 10px;
+}
